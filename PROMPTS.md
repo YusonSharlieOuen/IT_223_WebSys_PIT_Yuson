@@ -87,3 +87,4 @@ Prompt: do you think this is a good design for a web based resume?
 AI Output: ChatGPT thinks its a good school project, but not a professional resume site. Saying suggestions that would make the website a bit more professional.
 How I used/modified it in my project: I used ChatGPT's suggestions to make slight improvements to the design of my website, even if it was just a little bit.
 ------------------------------------------------------------------------------------------------------------------------------------------
+Note: There are more prompts than these, but they are more of follow-up from pre-existing prompts. I just want to highlight the main prompts that I used.
