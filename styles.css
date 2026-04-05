@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #020617, #0a2540);
+    color: #e0f2fe;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+/* Header CSS */
+#Header {
+    text-align: center;
+    background-color: #1e293b;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+    border-radius: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Header h1 {
+    background-color: #425f75;
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#Header h2 {
+    background-color: #425f75;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#Header a {
+    display: inline-block;
+    padding: 5px, 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#Header a:hover {
+    background-color: #38bdf8;
+    color: white;
+    border-radius: 5px;
+}
+
+#Header ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #425f75;
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Section Class CSS */
+.section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color:#1e293b;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    margin-bottom: 50px;
+}
+
+/* Top Button CSS */
+#topBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: block;
+    padding: 10px;
+}
+
+/* Dark Mode CSS */
+body.light-mode {
+    background: #f0f0f0;
+}
+
+/* Content CSS */
+.content {
+    display: none;
+    margin-top: 10px;
+}

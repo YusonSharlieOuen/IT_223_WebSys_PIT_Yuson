@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="Header">
+    <h1>My Resume</h1>
+    <h2>Direct links</h2>
+    <ol>
+        <li><a href="#AboutMe">About Me</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#ProjectsPortfolio">Projects/Potrfolio</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ol>
+    </div>
+
+    <button onclick="toggleLightMode()">Light Mode</button>
+    
+    <div class="section" id="AboutMe">
+        <h2>About Me</h2>
+        <div class="content">
+            <img src="images/My_picture.jpg" alt="My Picture" width="100px" height="100px">
+            <p>I am Sharlie Ouen T. Yuson. I am currently in college learning Information Technology for my Bachelor's degree. 
+            I am rather fond of playing video games, specifically ones that allows me to express my creativity, strategy, and games 
+            that give me a meaningful challenge.
+        </p>
+        </div>
+    </div>
+
+    <div class="section" id="Education">
+        <h2>My Education</h2>
+        <div class="content">
+        <ol>
+            <li>Elementary
+            <ul>
+                <li>Infant Jesus School of Bukidnon</li>
+            </ul>
+            </li>
+
+            <li>High School
+            <ul>
+                <li>Valencia National High School</li>
+            </ul>
+            </li>
+
+            <li>College (ongiong)
+            <ul>
+                <li>University of Science and Technology of Southern Philippines</li>
+            </ul>
+            </li>
+        </ol>
+        </div>
+    </div>
+
+    <div class="section" id="Skills">
+        <h2>My Skills</h2>
+        <div class="content">
+        <ul>
+            <li>Programming Language
+            <ul>
+                <li>C#</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section" id="ProjectsPortfolio">
+        <h2>My Projects/Portfolios</h2>
+        <div class="content">
+        <ul>
+            <li>Nothing noteworthy
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="section" id="Contact">
+        <h2>My Contacts</h2>
+        <div class="content">
+        <ul>
+            <li>Email: yuson.sharlieouen@gmail.com</li>
+            <li>Facebook: Sharlie Ouen Tabac Yuson</li>
+            <li>Phone Number: +639156585630</li>
+        </ul>
+        </div>
+    </div>
+    
+    <div>
+    <button id="topBtn" onclick="scrollToTop()">Back to Top</button>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
